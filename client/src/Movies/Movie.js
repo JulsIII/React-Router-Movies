@@ -8,6 +8,10 @@ export default function Movie(props) {
   let {id} = useParams()
   //const { id } = useRouteMatch();
   // Change ^^^ that line and use a hook to obtain the :id parameter from the URL
+  // const movieId =
+  //   id.find((movie) => {
+  //     return movie.id == id;
+  //   }) || {};
 
   useEffect(() => {
     axios
