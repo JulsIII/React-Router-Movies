@@ -5,7 +5,6 @@ import axios from 'axios';
 export default function Movie(props) {
   const [movie, setMovie] = useState();
 
-  // let {id} = useParams()
   const { id } = useParams()
   // Change ^^^ that line and use a hook to obtain the :id parameter from the URL
 
